@@ -1,0 +1,15 @@
+torch==2.0.0 
+torchvision==0.15.1 
+torchaudio==2.0.1
+librosa
+av
+opencv-python
+PIL
+tqdm
+numpy
+pandas
+scikit-learn
+pytorchvideo
+transformers
+datasets
+evaluate
