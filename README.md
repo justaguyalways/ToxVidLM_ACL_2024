@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-1. Download the dataset from the following link: [ToxCMM Dataset Link]([https://example.com/dataset.zip](https://drive.google.com/drive/folders/1lAl6KpewLv9bO64Ad5fccBOImSZgRPPP?usp=sharing)).
+1. Download the dataset from the following link: [ToxCMM Dataset Link]([https://drive.google.com/drive/folders/1lAl6KpewLv9bO64Ad5fccBOImSZgRPPP?usp=sharing])
 
 2. Unzip the downloaded file:
 
