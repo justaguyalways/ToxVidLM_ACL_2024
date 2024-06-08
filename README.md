@@ -20,6 +20,23 @@ conda activate your-env-name
 pip install -r requirements.txt
 ```
 
+## Dataset
+
+1. Download the dataset from the following link: [ToxCMM Dataset Link](https://drive.google.com/drive/folders/1lAl6KpewLv9bO64Ad5fccBOImSZgRPPP?usp=sharing)
+
+
+2. Unzip the downloaded file:
+
+```bash
+unzip dataset.zip
+```
+
+3. Move the unzipped folder to the `final_data` directory within the repository:
+
+```bash
+mv path_to_unzipped_folder final_data
+```
+
 ## Usage
 
 ### Training
@@ -49,3 +66,7 @@ Example:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python test.py
 ```
+
+
+
+
