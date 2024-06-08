@@ -62,7 +62,6 @@ class CustomDataset(Dataset):
         offensive_labels = torch.tensor(literal_eval(self.dataframe["offensive"].iloc[idx]), device="cpu")
         offensive_level_labels = torch.tensor(literal_eval(self.dataframe["offensiveness level"].iloc[idx]), device="cpu")
         sentiment_labels = torch.tensor(literal_eval(self.dataframe["sentiment"].iloc[idx]), device="cpu")
-        emotion_labels = torch.tensor(literal_eval(self.dataframe["emotion"].iloc[idx]), device="cpu")
         
         video = self.dataframe['video_path'].iloc[idx]
         audio = self.dataframe['audio_path'].iloc[idx]
@@ -77,7 +76,6 @@ class CustomDataset(Dataset):
             'offensive' : offensive_labels,
             'offensive_level' : offensive_level_labels,
             'sentiment' : sentiment_labels,
-            'emotion' : emotion_labels,
             'video': video,
             'audio': audio,
         }

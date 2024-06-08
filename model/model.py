@@ -115,16 +115,17 @@ class Multimodal_LLM(nn.Module):
                                                        token_embeddings)[0].transpose(0, 1).contiguous()
         
                 
-        level_2 = self.gate_fusion_3(video_encoder_out, audio_encoder_out)
-          
+        level_2 = self.gate_fusion(video_encoder_out, audio_encoder_out)
+        
+        #for roberta
         bos_embeds = self.adapter_llm.embeddings.word_embeddings(bos)
         sep_embeds = self.adapter_llm.embeddings.word_embeddings(sep)
         eos_embeds = self.adapter_llm.embeddings.word_embeddings(eos)
         
-        
-        bos_embeds = self.adapter_llm.wte(bos)
-        sep_embeds = self.adapter_llm.wte(sep)
-        eos_embeds = self.adapter_llm.wte(eos)
+        #for gpt2
+        # bos_embeds = self.adapter_llm.wte(bos)
+        # sep_embeds = self.adapter_llm.wte(sep)
+        # eos_embeds = self.adapter_llm.wte(eos)
         
         
         text_embeds = torch.cat([bos_embeds, level_2, sep_embeds, text_embeds, eos_embeds], dim=1)
