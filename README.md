@@ -74,12 +74,15 @@ CUDA_VISIBLE_DEVICES=0 python test.py
 
 If you use our work or find it useful, please cite:
 
+```bash
 @misc{maity2024toxvidlmmultimodalframeworktoxicity,
-title={ToxVidLM: A Multimodal Framework for Toxicity Detection in Code-Mixed Videos},
-author={Krishanu Maity and A. S. Poornash and Sriparna Saha and Pushpak Bhattacharyya},
-year={2024},
-eprint={2405.20628},
-archivePrefix={arXiv},
-primaryClass={cs.AI},
-url={https://arxiv.org/abs/2405.20628}
+  title={ToxVidLM: A Multimodal Framework for Toxicity Detection in Code-Mixed Videos},
+  author={Krishanu Maity and A. S. Poornash and Sriparna Saha and Pushpak Bhattacharyya},
+  year={2024},
+  eprint={2405.20628},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2405.20628}
 }
+```
+
