@@ -1,5 +1,5 @@
 ## Paper Link
-Please find our paper at [https://arxiv.org/abs/2405.20628](https://arxiv.org/abs/2405.20628)
+Please find our paper at [https://aclanthology.org/2024.findings-acl.663/](https://aclanthology.org/2024.findings-acl.663/)
 
 ## Installation
 
@@ -74,19 +74,23 @@ CUDA_VISIBLE_DEVICES=0 python test.py
 
 If you use our work or find it useful, please cite:
 
-### Citation
-
-If you use our work or find it useful, please cite:
-
 ```plaintext
-@misc{maity2024toxvidlmmultimodalframeworktoxicity,
-  title={ToxVidLM: A Multimodal Framework for Toxicity Detection in Code-Mixed Videos},
-  author={Krishanu Maity and A. S. Poornash and Sriparna Saha and Pushpak Bhattacharyya},
-  year={2024},
-  eprint={2405.20628},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  url={https://arxiv.org/abs/2405.20628}
+@inproceedings{maity-etal-2024-toxvidlm,
+    title = "{T}ox{V}id{LM}: A Multimodal Framework for Toxicity Detection in Code-Mixed Videos",
+    author = "Maity, Krishanu  and
+      Sangeetha, Poornash  and
+      Saha, Sriparna  and
+      Bhattacharyya, Pushpak",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.663",
+    pages = "11130--11142",
 }
 ```
 
